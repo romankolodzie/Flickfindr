@@ -34,7 +34,7 @@
                                     <constraint firstAttribute="bottom" secondItem="0VG-g9-ih1" secondAttribute="bottom" constant="14" id="Yy7-Cl-Ljy"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rxP-5o-pp5">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rxP-5o-pp5">
                                 <rect key="frame" x="0.0" y="121" width="414" height="534"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="534" id="d38-Uj-HHi"/>
@@ -80,10 +80,16 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="flickfindrLabel" destination="0VG-g9-ih1" id="4O3-ZR-gkB"/>
+                        <outlet property="photoImageView" destination="rxP-5o-pp5" id="Jta-Ig-M4h"/>
                         <outlet property="photoTitleLabel" destination="rTV-Ca-wxW" id="Dq1-ad-2iv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="5IV-dL-HMv">
+                    <connections>
+                        <action selector="userDidTapView:" destination="BYZ-38-t0r" id="Lu4-lI-dgH"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="245" y="349"/>
         </scene>

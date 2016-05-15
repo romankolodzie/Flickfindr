@@ -78,6 +78,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B11640E91CE669C3006CDEFA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B1ADB5B71CDC42F800926C62 /* LaunchScreen.storyboard */,
+				B1ADB5B51CDC42F800926C62 /* Assets.xcassets */,
+				B1ADB5B21CDC42F800926C62 /* Main.storyboard */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		B1ADB5A21CDC42F800926C62 = {
 			isa = PBXGroup;
 			children = (
@@ -105,9 +115,7 @@
 				B13905AA1CE42412008071CB /* GCDBlackBox.swift */,
 				B13905AC1CE4244B008071CB /* Constants.swift */,
 				B1ADB5B01CDC42F800926C62 /* SearchViewController.swift */,
-				B1ADB5B21CDC42F800926C62 /* Main.storyboard */,
-				B1ADB5B51CDC42F800926C62 /* Assets.xcassets */,
-				B1ADB5B71CDC42F800926C62 /* LaunchScreen.storyboard */,
+				B11640E91CE669C3006CDEFA /* Assets */,
 				B1ADB5BA1CDC42F800926C62 /* Info.plist */,
 			);
 			path = Flickfindr;
