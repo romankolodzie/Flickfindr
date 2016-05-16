@@ -194,6 +194,7 @@ class SearchViewController: UIViewController {
         flickfindrLabel.hidden = true
         searchButton.enabled = false
         searchBarOut = true
+        cancelButton.enabled = true
         
         if searchByPhraseBool{
             searchField.hidden = false
